@@ -190,7 +190,6 @@ Note that in the lower right of the Simulator there is an API token and an API e
     **Be sure to copy the URL from the Simulator to ensure you have the correct URL!**
 
 We can use these to test making requests to our SmartApp.
-
 ----
 
 Make API calls to the SmartApp
@@ -222,7 +221,7 @@ This should return a JSON response like the following::
   [{"name":"Kitchen 2","value":"off"},{"name":"Living room window","value":"off"}]
 
 To turn the switch on or off, call the /switches endpoint using a PUT request.
-Again, you'll need to substitute your unique endpoing and API key:
+Again, you'll need to substitute your unique endpoint and API key:
 
 .. code-block:: bash
 
